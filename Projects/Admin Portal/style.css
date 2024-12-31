@@ -1,0 +1,47 @@
+body{
+    background: #043d32;
+    color: white ;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Tahoma;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    width: 60%; 
+    display: flex;  
+    
+}
+.input-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 30%;
+}
+.input-fields{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 70%;
+
+}
+h3{
+    display: inline-block;
+}
+input{
+    width: 80%;
+    height: 28px;
+    
+}
+#add-btn{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(43, 185, 0);
+    text-align: center;
+    align-content: center;
+    font-size: 1.2rem;
+}
