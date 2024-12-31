@@ -70,7 +70,7 @@ a {
 .nav-links:hover {
     background-color: var(--primary);
     transition: all .3s ease-in;
-    color: #040D12;
+    color: var(--background);
 }
 
 .menu-icon {
@@ -342,14 +342,8 @@ a {
 
 .skills-section {
     background-color: var(--accent);
-    /* display: flex; */
-    /* align-items: center; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
     padding: 20px 0px;
-
     width: 100%;
-    /* background-color: var(--primary); */
     height: fit-content;
 
 }
@@ -360,7 +354,7 @@ a {
     font-size: 3rem;
     color: var(--text);
     font-weight: 650;
-
+    
 }
 
 .skillsContainer {
@@ -374,13 +368,14 @@ a {
 
 .skillBox {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     margin: 25px 0;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    /* border: 1px solid red; */
 }
 
-.skillTop {
+.skillBoxLeft {
 
     width: 10%;
     display: flex;
@@ -388,38 +383,46 @@ a {
     justify-content: center;
 }
 
-.skillTop .title {
-    font-size: 1.7em;
+.skillBoxLeft .title {
     font-weight: 600;
+    font-size: 1.7rem;
 }
 
-.skillBottom {
+.skillBoxCenter {
     display: flex;
     width: 90%;
     align-items: center;
     justify-content: space-around;
 }
 
-.skillBottom .skillBar {
-    width: 80%;
+.skillBoxCenter .skillBar {
+    width: 90%;
     height: 6px;
     border-radius: 6px;
     background: lightgray;
 
+}
+.skillBoxRight {
+
+    font-size: 1.6rem;
+    background-color: var(--secondary);
+    color: var(--text);
+    padding: 7px 15px;
+    border-radius: 10px;
 }
 
 /* EVERY SKILL Percentages */
 .skillPer-html {
     border-radius: 6px;
     height: 100%;
-    width: 90%;
+    width: 95%;
     background: var(--accent);
 }
 
 .skillPer-css {
     border-radius: 6px;
     height: 100%;
-    width: 80%;
+    width: 90%;
     background: var(--accent);
 }
 
@@ -472,14 +475,7 @@ a {
     background: var(--accent);
 }
 
-.skillBottom .toolTip {
 
-    font-size: 1.6rem;
-    background-color: var(--secondary);
-    color: var(--text);
-    padding: 7px 10px;
-    border-radius: 10px;
-}
 
 
 /* Contact Me Container Start*/

@@ -6,7 +6,7 @@
         right: 0%;
         flex-direction: column;
         text-align: center;
-        background-color: #040D12;
+        background-color: var(--background);
         overflow: hidden;
         margin-top: -10px;
     }
